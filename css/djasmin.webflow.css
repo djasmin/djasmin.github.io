@@ -1,0 +1,161 @@
+.hero-heading {
+  margin-top: 225px;
+  padding-top: 0px;
+  font-family: Avenirnextcyr, sans-serif;
+  color: #0e9da3;
+  font-size: 42px;
+  line-height: 46px;
+  text-align: center;
+}
+
+.hero-subheading {
+  margin-top: 15px;
+  font-family: Avenirnextcyr, sans-serif;
+  color: #535353;
+  font-size: 26px;
+  line-height: 30px;
+  font-weight: 200;
+  text-align: center;
+}
+
+.section {
+  height: 100vh;
+  background-color: #f7f7f7;
+}
+
+.navbar {
+  background-color: transparent;
+}
+
+.navlink {
+  font-family: Avenirnextcyr, sans-serif;
+  font-weight: 400;
+}
+
+.hero-button {
+  margin-top: 50px;
+  padding: 15px 20px;
+  background-color: #0e9da3;
+  font-family: 'Avenirnextcyr medium', sans-serif;
+  font-size: 18px;
+}
+
+.secondary-button {
+  margin-left: 20px;
+  padding: 15px 20px;
+  border: 1px solid #0e9da3;
+  background-color: transparent;
+  font-family: 'Avenirnextcyr medium', sans-serif;
+  color: #0e9da3;
+  font-size: 18px;
+}
+
+.email-field {
+  width: 450px;
+  float: left;
+  font-family: Avenirnextcyr, sans-serif;
+  font-size: 18px;
+}
+
+.email-field:focus {
+  border: 1px solid #0e9da3;
+}
+
+.submit-button {
+  display: inline-block;
+  margin-left: 25px;
+  padding-top: 10px;
+  padding-bottom: 8px;
+  float: left;
+  background-color: #0e9da3;
+  font-family: 'Avenirnextcyr medium', sans-serif;
+  font-size: 18px;
+}
+
+.email-form {
+  display: block;
+  width: 675px;
+  margin-top: 55px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+.success-message {
+  margin-top: 35px;
+  padding-top: 30px;
+  background-color: transparent;
+}
+
+.success-text {
+  font-family: 'Avenirnextcyr medium', sans-serif;
+  color: #0e9da3;
+  font-size: 28px;
+  line-height: 32px;
+}
+
+.error-message {
+  background-color: transparent;
+}
+
+.error-text {
+  font-family: 'Avenirnextcyr medium', sans-serif;
+  color: #f03535;
+  font-size: 16px;
+  text-align: center;
+}
+
+@font-face {
+  font-family: 'Avenirnextcyr';
+  src: url('../fonts/AvenirNextCyr-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Avenirnextcyr medium';
+  src: url('../fonts/AvenirNextCyr-Medium.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Avenirnextcyr';
+  src: url('../fonts/AvenirNextCyr-MediumItalic.otf') format('opentype'), url('../fonts/AvenirNextCyr-Italic.otf') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Avenirnextcyr';
+  src: url('../fonts/AvenirNextCyr-Thin.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Avenirnextcyr';
+  src: url('../fonts/AvenirNextCyr-ThinItalic.otf') format('opentype');
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Avenirnextcyr';
+  src: url('../fonts/AvenirNextCyr-LightItalic.otf') format('opentype');
+  font-weight: 200;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Avenirnextcyr';
+  src: url('../fonts/AvenirNextCyr-Light.otf') format('opentype');
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Avenirnextcyr';
+  src: url('../fonts/AvenirNextCyr-BoldItalic.otf') format('opentype');
+  font-weight: 800;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Avenirnextcyr';
+  src: url('../fonts/AvenirNextCyr-Bold.otf') format('opentype');
+  font-weight: 800;
+  font-style: normal;
+}
